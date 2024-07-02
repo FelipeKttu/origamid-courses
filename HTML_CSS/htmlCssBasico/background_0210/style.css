@@ -1,0 +1,9 @@
+h1 {
+  background-color: #fc1010;
+  color: #fff;
+}
+a {
+  background-color: green;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+}
