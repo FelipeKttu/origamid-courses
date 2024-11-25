@@ -1,0 +1,12 @@
+h1,
+a {
+  color: blueviolet;
+}
+
+p a {
+  color: black;
+}
+
+#titulo {
+  color: chartreuse;
+}
