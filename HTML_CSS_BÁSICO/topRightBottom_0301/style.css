@@ -1,0 +1,34 @@
+span {
+  display: inline-block;
+  background: #ddd;
+}
+
+.padding {
+  padding-top: 20px;
+  padding-right: 60px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  /*ou posso usar diretamente (abaixo)*/
+  padding: 20px 60px 40px 10px;
+}
+
+.margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  /*ou posso usar diretamente (abaixo)*/
+  margin: 20px 40px;
+  /* - O primeiro valor (20px) aplica-se ao topo e à base.
+  - O segundo valor (40px) aplica-se aos lados right e left. */
+}
+
+.border {
+  border: solid black;
+  border-width: 5px 20px;
+  /* - O primeiro valor (5px) aplica-se ao topo e à base.
+  - O segundo valor (20px) aplica-se aos lados right e left. 
+  -Caso eu escrever apenas 5px vai colocar um border de 5px para ambos os lados
+  -Se eu quiser posso usar border-(lado):
+  border-top: 30px;*/
+}
