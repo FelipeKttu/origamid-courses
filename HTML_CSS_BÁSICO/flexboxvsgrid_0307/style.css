@@ -1,0 +1,25 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+h2 {
+  background: #e7e7e7;
+  border: 1px solid #d7d7d7;
+  padding: 10px;
+  margin: 0px;
+  flex: 1;
+}
+
+.grid {
+  margin-top: 60px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(150px, auto)
+  ); /* Cria colunas flexíveis:
+  - `auto-fit`: Ajusta automaticamente o número de colunas para caber no espaço disponível.
+  - `minmax(150px, auto)`: Define que cada coluna terá pelo menos 150px e poderá crescer para preencher o espaço restante. */
+}
