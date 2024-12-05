@@ -1,0 +1,34 @@
+body {
+  height: 1000px;
+}
+
+div {
+  border: 2px solid #ccc;
+  margin-top: 40px;
+  padding: 20px 20px 40px 20px;
+  position: relative;
+  /* relative; permite que o elemento mantenha sua posição padrão no fluxo do layout, mas cria uma referência para que elementos filhos com position: absolute; possam ser posicionados em relação a ele. */
+}
+
+span {
+  background-color: #e7e7e7;
+  border: 2px solid #ccc;
+  position: absolute;
+  padding: 10px;
+  top: -20px;
+  /* A position: absolute; remove o elemento do fluxo normal do documento e o posiciona em relação ao ancestral mais próximo com position: relative; (neste caso, a div). O valor top: -20px; desloca o elemento 20px acima do topo da div, criando um efeito visual destacado. */
+}
+
+.fixo {
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+  right: 20px;
+  background-color: #e7e7e7;
+  border: 2px solid #ccc;
+  padding: 10px;
+  /*  fixed; fixa o elemento na janela de visualização (viewport), independente da rolagem da página.
+bottom: 10px; Posiciona o elemento a 10px da borda inferior da tela.
+left: 20px; Posiciona o elemento a 20px da borda esquerda da tela.
+right: 20px; Garante que o elemento se estenda até 20px antes da borda direita da tela. */
+}
