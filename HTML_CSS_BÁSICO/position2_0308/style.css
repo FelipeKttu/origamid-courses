@@ -1,0 +1,20 @@
+h1 {
+  margin: 0px;
+  padding: 10px;
+  background: lightblue;
+}
+
+.index1 {
+  position: relative;
+  background: greenyellow;
+  top: 40px;
+  z-index: 1;
+  /* Define a posição no eixo z (profundidade) dos elementos que foram posicionados fora do fluxo (relative, fixed, absolute). */
+}
+
+.index2 {
+  position: relative;
+  background: lightcoral;
+  top: -40px;
+  z-index: -1;
+}
